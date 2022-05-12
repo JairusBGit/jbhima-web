@@ -5,7 +5,28 @@
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <link rel="stylesheet" href="stylesheet.css">
         <style>
+            .rainbowheader {
+                background: linear-gradient(to right, #ff5555, #e0ff55 , #55ff55, #55ffff, #5560ff, #ff55c6);
+                font-family: 'CellProvider';
+                font-size: 48px;
+                text-align: center;
+                -webkit-background-clip: text;
+                margin: 0;
+                background-clip: text;
+                color: transparent;
+                animation: rainbow_animation 15s linear infinite;
+                background-size: 400% 100%;
+}
 
+@keyframes rainbow_animation {
+  0% {
+      background-position: 0% 0;
+  }
+
+  100% {
+      background-position: 400% 0;
+  }
+}
         </style>
     </head>
     <body>
