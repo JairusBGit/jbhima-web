@@ -1,0 +1,75 @@
+@font-face {
+font-family: 'Pixifont2';
+src: url('fonts/Pixifont2-Regular.woff2') format('woff2'),
+  url('fonts/Pixifont2-Regular.woff') format('woff');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'CellProvider';
+src: url('fonts/CellProvider-Regular.woff2') format('woff2'),
+  url('fonts/CellProvider-Regular.woff') format('woff');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+
+body {
+    background-color: rgb(21, 20, 29);
+}
+
+img.pfp {
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+p {
+    font-family: 'Pixifont2';
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+}
+
+.exlink {
+    font-family: 'Pixifont2';
+    font-size: 18px;
+    text-align: center;
+    margin: 0
+}
+
+.header {
+    font-family: 'CellProvider';
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+    color: #ff3838;
+}
+
+.subheader {
+    font-family: 'CellProvider';
+    font-size: 20px;
+    text-align: center;
+    margin: 0
+}
+
+div.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    border: 5px solid rgb(255, 61, 61);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
