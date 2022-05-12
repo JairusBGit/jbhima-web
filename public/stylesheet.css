@@ -80,9 +80,13 @@ p {
     margin: 0
 }
 
-.rainbowtext {
+.rainbowheader {
   background: linear-gradient(to right, #ff5555, #e0ff55 , #55ff55, #55ffff, #5560ff, #ff55c6);
+  font-family: 'CellProvider';
+  font-size: 48px;
+  text-align: center;
   -webkit-background-clip: text;
+  margin: 0;
   background-clip: text;
   color: transparent;
   animation: rainbow_animation 15s linear infinite;
