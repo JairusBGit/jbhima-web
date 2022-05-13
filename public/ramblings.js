@@ -26,7 +26,7 @@ r_text[23] = '"womp womp" - shylily';
 r_text[24] = "you can put doom on anything!";
 r_text[25] = "lain =/= lean";
 r_text[26] = "crisp rat";
-r_text[27] = "i'm off twitter for VARIOUS reasons";
+r_text[27] = "i love sleep uwu";
 r_text[28] = "at least i did a bit better than the Sega Saturn";
 r_text[29] = "THIS ISN'T A ROBLOX GAME, THIS IS MARIO PARTY-";
 
