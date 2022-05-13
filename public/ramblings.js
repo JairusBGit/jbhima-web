@@ -32,4 +32,4 @@ r_text[29] = "THIS ISN'T A ROBLOX GAME, THIS IS MARIO PARTY-";
 
 var i = Math.floor(30*Math.random())
 
-document.write('<p>' + r_text[i] + '</p>');
+document.write('<span>' + r_text[i] + '</span>');
