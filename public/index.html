@@ -8,16 +8,16 @@
             .rainbowheader {
                 background: linear-gradient(to right, #ff5555, #e0ff55 , #55ff55, #55ffff, #5560ff, #ff55c6, #ff5555);
                 font-family: 'CellProvider';
-                font-size: 48px;
-                text-align: center;
+                font-size: 3rem;
                 -webkit-background-clip: text;
                 margin: 0;
                 background-clip: text;
                 color: transparent;
                 animation: rainbow_animation 15s linear infinite;
                 background-size: 400% 100%;
+                padding-left: 2rem;
+                padding-right: 2rem;
 }
-
 @keyframes rainbow_animation {
   0% {
       background-position: 0% 0;
@@ -30,12 +30,8 @@
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="sliding-background"></div>
-          </div>
-
         <div class="heading">
-            <img class="pfp" src="images/armi.jpg">  
+            <div class="pfp"><img class="pfp" src="images/armi.jpg"></img></div>
             <p class="rainbowheader">jb // himawari</p>
             <p>----------------------</p>
             <p>world's worst creative</p>
@@ -51,5 +47,6 @@
             <p class="exlink"><a href="stuff/aboutme.html">about me</a></p>
             <p class="exlink"><a href="https://github.com/JairusBGit/jbhima-web">site source code</a></p>
         </div>
+    </div>
     </body>
 </html>
