@@ -71,11 +71,13 @@ p {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    flex-basis: 25vw;
-    min-width: 20vw;
-    max-width: 35vw;
+    flex-basis: 28.125rem;
+    min-width: 28.125rem;
+    max-width: 28.125rem;
     width: fit-content;
     height: fit-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border: 0.313rem solid rgb(223, 223, 223);
     border-radius: 0.938rem;
     padding: 1rem;
