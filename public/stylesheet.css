@@ -76,7 +76,6 @@ p {
 
 .heading {
     display: flex, inline-flex;
-    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-content: center;
