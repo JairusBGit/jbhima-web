@@ -20,7 +20,7 @@ r_text[17] = "you're either a gender or agender";
 r_text[18] = "unity can kiss my ass";
 r_text[19] = "fl studio > every other DAW";
 r_text[20] = "i'm thinking miku miku oo ee oo";
-r_text[21] = "*punts fidgy*";
+r_text[21] = "will steal all your vrchat bookings";
 r_text[22] = "i have always been number one er-, two er-, three er-, one er-, wii u-";
 r_text[23] = '"womp womp" - shylily';
 r_text[24] = "you can put doom on anything!";
@@ -29,7 +29,18 @@ r_text[26] = "crisp rat";
 r_text[27] = "i love sleep uwu";
 r_text[28] = "at least i did a bit better than the Sega Saturn";
 r_text[29] = "THIS ISN'T A ROBLOX GAME, THIS IS MARIO PARTY-";
+r_text[30] = "if webdev is pain then call me a masochist";
+r_text[31] = "LEEEEEEEEEROY JENKINSSSS";
+r_text[32] = "OH HELL YEA OWOHOOOO";
+r_text[33] = "Then why dont you tell me... about this ratio!";
+r_text[34] = "what";
+r_text[35] = "I accept payment in anime girl body pillows!";
+r_text[36] = "I SMELL VIRGINITY!";
+r_text[37] = "doxxing doxxing doxxing-";
+r_text[38] = "who the fuck are you cheese.";
+r_text[39] = "JELLYBEAN?!";
+r_text[40] = "Is this another fucking Parody Twitter meme?!";
 
-var i = Math.floor(30*Math.random())
+var i = Math.floor(41*Math.random())
 
 document.write('<span>' + r_text[i] + '</span>');
