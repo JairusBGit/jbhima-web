@@ -1,6 +1,6 @@
-$foregrn: rgb(160, 160, 160);
+$foregrn: #4d4d4d;
 $color_2: transparent;
-$backgrn: white;
+$backgrn: #121212;
 $ytb: #FF0000;
 $git: #333;
 $spt: #1ED760;
@@ -41,6 +41,7 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	background-color: #121212;
 }
 .pfp {
 	display: block;
@@ -54,18 +55,23 @@ body {
 }
 p {
 	font-family: $pixifont;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	text-align: center;
 	margin: 0;
+	color: #b5b5b5
 }
+span {
+	font-family: "Pixifont2";
+	font-size: 1.2rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: #b5b5b5
+  }
 .subtext {
 	font-family: $pixifont;
-	font-size: 1rem;
-	text-align: center;
-	color:$foregrn;
-	margin: 0;
-	font-family: $pixifont;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	text-align: center;
 	color:$foregrn;
 	margin: 0;
@@ -90,7 +96,7 @@ p {
 }
 .heading {
 	display: flex, inline-flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	align-content: center;
@@ -101,7 +107,7 @@ p {
 	height: fit-content;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	border: 0.313rem solid rgb(223, 223, 223);
+	border: 0.313rem solid #040404;
 	border-radius: 0.938rem;
 	padding: 1rem;
 	background-color: $backgrn;
@@ -121,7 +127,7 @@ button {
 	padding: 0.3rem 0.4rem;
 	border-radius: 0.5rem;
 	display: inline-block;
-	background-color: white;
+	background-color: $backgrn;
 	transition-duration: 0.4s;
   }
   button:hover {
@@ -189,5 +195,21 @@ button {
 	color: #60c58f;
   }
   .button2h:hover {
+	background-color: #60c58f;
+  }
+
+  .buttonma {
+	border: 0.125rem solid #2c70de;
+	color: #2c70de;
+  }
+  .buttonma:hover {
+	background-color: #2c70de;
+  }
+
+  .buttonkc {
+	border: 0.125rem solid #4df23a;
+	color: #4df23a;
+  }
+  .buttonkc:hover {
 	background-color: #60c58f;
   }
