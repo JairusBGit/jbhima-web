@@ -8,43 +8,43 @@
     "redirects": [ 
       {
         "source": "konclient.html",
-        "destination": "/konclient",
+        "destination": "/konclient/",
         "type": 301
       }, 
   
       {
         "source": "404.html",
-        "destination": "/404",
+        "destination": "/404/",
         "type": 301
       },
   
       {
         "source": "stuff/aboutme.html",
-        "destination": "/aboutme",
+        "destination": "/aboutme/",
         "type": 301
       }, 
       
       {
         "source": "stuff/buttons.html",
-        "destination": "/buttons",
+        "destination": "/buttons/",
         "type": 301
       },
       
       {
         "source": "stuff/stuffer/dni.html",
-        "destination": "/dontinteract",
+        "destination": "/dontinteract/",
         "type": 301
       },
 
       {
         "source": "stuff/stuffer/likes.html",
-        "destination": "/likes",
+        "destination": "/likes/",
         "type": 301
       },
 
       {
         "source": "stuff/stuffer/projects.html",
-        "destination": "/projects",
+        "destination": "/projects/",
         "type": 301
       }
       ],
