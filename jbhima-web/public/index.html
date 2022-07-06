@@ -41,13 +41,14 @@ span {
 
 button {
   font-family: "Pixifont2";
-  font-size: 1.2rem;
+  font-size: 1.2rem;;
   text-align: center;
   min-width: 8rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin: 0.25rem;
+  position: relative;
+  margin: 0.25rem auto;
   padding: 0.3rem 0.4rem;
   border-radius: 0.5rem;
   display: inline-block;
@@ -127,7 +128,9 @@ button:hover {
             </noscript>
             <p>----------------------</p>
             <p class="subheader">(v) things to click on (v)</p>
-            <button type="buttonyt" class="buttonyt" onclick="window.location.href='https://www.youtube.com/channel/UCS_aOrszAD9qSzkywu0WW4A';">youtube</button>
+            <center>
+            <div>
+              <button type="buttonyt" class="buttonyt" onclick="window.location.href='https://www.youtube.com/channel/UCS_aOrszAD9qSzkywu0WW4A';">youtube</button>
             <button type="buttontw" class="buttontw" onclick="window.location.href='https://twitter.com/himawari_065';">twitter</button>
             <br>
             <button type="buttonsp" class="buttonsp" onclick="window.location.href='https://open.spotify.com/artist/4O6jSxt0RTMpKCYCyoo1SO';">spotify</button>
@@ -137,6 +140,8 @@ button:hover {
             <button type="buttonbh" class="buttonbh" onclick="window.location.href='https://www.behance.net/jairusbona_';">behance</button>
             <br>
             <button type="buttontt" class="buttontt" onclick="window.location.href='https://www.twitch.tv/jbhimawari';">twitch</button><br>
+            </div>
+          </center>
             <p class="subheader">(v) more! things to click on (v)</p>
             <p class="exlink"><a href="stuff/aboutme.html">about me</a></p>
             <p class="exlink"><a href="stuff/stuffer/projects.html">stuff i made</a></p>
