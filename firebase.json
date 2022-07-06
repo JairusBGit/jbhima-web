@@ -2,6 +2,7 @@
   "hosting": {
    "site": "himawari-jb",
     "public": "public",
+    "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
