@@ -28,7 +28,6 @@
     background-position: 400% 0;
   }
 }
-/* Button Code, send hlep aaaaaaaaaaaaaaaaaaa*/
 body {
   margin: auto;
   height: 100vh;
@@ -56,6 +55,22 @@ p {
   text-align: center;
   margin: 0;
   color: #b5b5b5;
+}
+
+a {
+  font-family: "Pixifont2";
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+  color: #8cf5cc;
+}
+
+a:visited {
+  font-family: "Pixifont2";
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+  color: #27e39b;
 }
 
 span {
@@ -97,6 +112,13 @@ span {
   margin: 0;
 }
 
+.subheader2 {
+  font-family: "CellProvider";
+  font-size: 1.75rem;
+  text-align: center;
+  margin: 0;
+}
+
 .heading {
   display: flex, inline-flex;
   flex-direction: row;
@@ -104,8 +126,8 @@ span {
   justify-content: center;
   align-content: center;
   flex-basis: 28.125rem;
-  min-width: 28.125rem;
-  max-width: 28.125rem;
+  min-width: 35rem;
+  max-width: 35rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -119,22 +141,6 @@ span {
   padding: 1rem;
   background-color: #121212;
   box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
-}
-
-a {
-  font-family: "Pixifont2";
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 0;
-  color: #8cf5cc;
-}
-
-a:visited {
-  font-family: "Pixifont2";
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 0;
-  color: #27e39b;
 }
 
 button {
@@ -240,10 +246,10 @@ button:hover {
 }
 
 .buttonkc {
-  border: 0.125rem solid #4df23a;
-  color: #4df23a;
+  border: 0.125rem solid #53ff4a;
+  color: #53ff4a;
 }
 
 .buttonkc:hover {
-  background-color: #4df23a;
+  background-color: #53ff4a;
 }/*# sourceMappingURL=stylesheet.css.map */

@@ -33,7 +33,7 @@ $cellprov: 'CellProvider';
 		background-position: 400% 0;
 	}
 }
-/* Button Code, send hlep aaaaaaaaaaaaaaaaaaa*/
+
 body {
 	margin: auto;
 	height: 100vh;
@@ -60,6 +60,21 @@ p {
 	margin: 0;
 	color: #b5b5b5
 }
+a {
+	font-family: "Pixifont2";
+	font-size: 1.2rem;
+	text-align: center;
+	margin: 0;
+	color: #8cf5cc;
+  }
+  
+  a:visited {
+	font-family: "Pixifont2";
+	font-size: 1.2rem;
+	text-align: center;
+	margin: 0;
+	color: #27e39b;
+  }
 span {
 	font-family: "Pixifont2";
 	font-size: 1.2rem;
@@ -94,6 +109,12 @@ span {
 	text-align: center;
 	margin: 0;
 }
+.subheader2 {
+	font-family: $cellprov;
+	font-size: 1.75rem;
+	text-align: center;
+	margin: 0;
+}
 .heading {
 	display: flex, inline-flex;
 	flex-direction: row;
@@ -101,8 +122,8 @@ span {
 	justify-content: center;
 	align-content: center;
 	flex-basis: 28.125rem;
-	min-width: 28.125rem;
-	max-width: 28.125rem;
+	min-width: 35rem;
+	max-width: 35rem;
 	width: fit-content;
 	height: fit-content;
 	padding-top: 1rem;
@@ -207,9 +228,9 @@ button {
   }
 
   .buttonkc {
-	border: 0.125rem solid #4df23a;
-	color: #4df23a;
+	border: 0.125rem solid #53ff4a;
+	color: #53ff4a;
   }
   .buttonkc:hover {
-	background-color: #60c58f;
+	background-color: #53ff4a;
   }
