@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jb.website</title>
+        <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <style>
+                .rainbowheader {
+                background: linear-gradient(to right, #ff5555, #e0ff55 , #55ff55, #55ffff, #5560ff, #ff55c6, #ff5555);
+                font-family: 'CellProvider';
+                font-size: 3rem;
+                -webkit-background-clip: text;
+                margin: 0;
+                background-clip: text;
+                color: transparent;
+                animation: rainbow_animation 15s linear infinite;
+                background-size: 400% 100%;
+                padding-left: 2rem;
+                padding-right: 2rem;
+}
+@keyframes rainbow_animation {
+  0% {
+      background-position: 0% 0;
+  }
+
+  100% {
+      background-position: 400% 0;
+  }
+}
+
+.button64 {
+  border: 0.125rem solid #887ecb;
+  color: #887ecb;
+}
+
+.button64:hover {
+  background-color: #887ecb;
+}
+        </style>
+        <script src="oneko.js"></script>
+        
+        <div class="heading">
+            <p class="rainbowheader">FUN STUFF!</p>
+            <p>this is some stuff i added for shiz and giggles</p>
+            <br>
+            <center>
+                <div>
+                    <button type="button64" class="button64" onclick="window.location.href='viciious.html'">Commodore 64 Emulator</button>
+                    <br>
+                </div>
+            </center>
+            <br>
+            <p class="exlink"><a href="index.html">go back</a></p>
+        </div>
+    </body>
+</html>
