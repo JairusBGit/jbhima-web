@@ -40,7 +40,9 @@ r_text[37] = "doxxing doxxing doxxing-";
 r_text[38] = "who the fuck are you cheese.";
 r_text[39] = "JELLYBEAN?!";
 r_text[40] = "Is this another fucking Parody Twitter meme?!";
+r_text[41] = "SOMETHING HAPPY HAHAHAHAHAHAHA - spacewalker from form";
+r_text[42] = "she form on my all til i nighter >:3"
 
-var i = Math.floor(41*Math.random())
+var i = Math.floor(43*Math.random())
 
 document.write('<span>' + r_text[i] + '</span>');
