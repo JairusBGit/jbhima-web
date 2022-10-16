@@ -90,10 +90,6 @@ p {
 }
 
 .heading {
-  display: flex, inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
   flex-basis: 70vw;
   min-width: 70vw;
   max-width: 90vw;
@@ -111,4 +107,12 @@ p {
   background-color: #121212;
   box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
   padding: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
 }/*# sourceMappingURL=buttons.css.map */
