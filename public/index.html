@@ -1,99 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>jb.website</title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <script type=" module" src="anim.ts"></script>
-        <link rel="stylesheet" href="stylesheet.css">
-        <style>
-            .rainbowheader {
-  background: linear-gradient(to right, #ff5555, #e0ff55, #55ff55, #55ffff, #5560ff, #ff55c6, #ff5555);
-  font-family: "CellProvider";
-  font-size: 4rem;
-  -webkit-background-clip: text;
-  margin: 0;
-  background-clip: text;
-  color: transparent;
-  -webkit-animation: rainbow_animation 15s linear infinite;
-          animation: rainbow_animation 15s linear infinite;
-  background-size: 400% 100%;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-@keyframes rainbow_animation {
-  0% {
-      background-position: 0% 0;
-  }
-
-  100% {
-      background-position: 400% 0;
-  }
-}
-
-span {
-	font-family: "Pixifont2";
-	font-size: 1.2rem;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	color: #b5b5b5
-  }
-        </style>
-    </head>
+  <head>
+    <link rel="stylesheet" href="index.css">
     <body>
-      <div id="wrapper">
-        <script src="oneko.jsx"></script>
-        <div class="heading">
-          <div class-="content">
-            <div class="pfp"><img class="pfp" src="images/hima.jpg"></img></div>
-            <p class="rainbowheader">himawari</p>
-            <p>----------------------</p>
-            <script type="text/javascript" src="ramblings.tsx"></script>
-            <noscript>
-                <span>:pleading_emoji: no javascript? haha skill issue lol</span>
-            </noscript>
-            <p>----------------------</p>
-            <br>
-            <p class="subheader">(v) things to click on (v)</p>
-            <center>
-            <div>
-            <button type="buttonyt" class="buttonyt" onclick="window.location.href='https://www.youtube.com/channel/UCS_aOrszAD9qSzkywu0WW4A';">youtube</button>
-            <button type="buttontw" class="buttontw" onclick="window.location.href='https://twitter.com/jbhima_moe';">twitter</button>
-            <br>
-            <button type="buttonsp" class="buttonsp" onclick="window.location.href='https://open.spotify.com/artist/4O6jSxt0RTMpKCYCyoo1SO';">spotify</button>
-            <button type="buttonig" class="buttonig" onclick="window.location.href='https://www.instagram.com/jb.himawari/';">instagram</button>
-            <br>
-            <button type="buttongh" class="buttongh" onclick="window.location.href='https://github.com/jbhimawariii';">github</button>
-            <button type="buttonbh" class="buttonbh" onclick="window.location.href='https://www.behance.net/jairusbona_';">behance</button>
-            <br>
-            <button type="buttontt" class="buttontt" onclick="window.location.href='https://www.twitch.tv/jbhimawari';">twitch</button><br>
-            </div>
-          </center>
-          <br>
-            <p class="subheader">(v) more! things to click on (v)</p>
-            <p class="exlink"><a href="aboutme.html">about me</a></p>
-            <p class="exlink"><a href="projects.html">stuff i made</a></p>
-            <p class="exlink"><a href="buttons.html">buttons</a></p>
-            <p class="exlink"><a href="funstuff.html">cool lil things i put in this website for bloat</a></p>
-            <p class="exlink"><a href="https://github.com/jbhimawariii/jbhima-web">site source code</a></p>
-            <br>
-            <p>this website was inspired by</p>
-            <p class="exlink"><a href="https://fleepy.tv/">fleepy.tv</a></p>
-            <br>
-            <p class="subheader">(v) Need a quick waifu boost? Here you go! (v)</p>
-            <center>
-            <div>
-              <button type="button2h" class="button2h" onclick="window.location.href='https://safebooru.org/index.php?page=post&s=random&tags=touhou+';">Get A Waifu!</button>
-            <div>
-            </center>
-            <br>
-            <p class="subtext">email me at himawariphoenix@gmail.com</p>
-            <p class="subtext">avi by @TagadrawZ on twitter</p>
-          </div>
+    <div id="container">
+        <div id="headerArea">
+            <div id="header"></div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="/blog/blogindex.html">Blog</a></li>
+                    <li><a href="../../art.html">Art</a></li>
+                    <li><a href="../../project.html">Projects</a></li>
+                    <li><a href="../../guest.html">Guestbook</a></li>
+                    <li><a href="https://mastodon.online/@hima_online">Mastodon</a></li>
+                </ul>
+            </nav>
         </div>
+
+        <div id="flex">
+            
+            <main>
+                <h1>Welcome to the hima_online site!</h1>
+                <p><strong>About me!</strong></p>
+                <p>
+                    Hi, i'm Hima!
+                    <br><br>
+                    i like to make stuff on my computer and laugh at dank memes.<br>
+                    they/any. 16. pan and trans. filipino too!
+                    <br><br>
+                    I like doing creative stuff on the internet!
+                </p>
+                <br><p>Site rating:</p>
+                <a href="http://www.mabsland.com/Adoption.html" target="_blank"><img src="http://www.mabsland.com/Pandas/Censor_14c.gif" /></a>
+                <br><br>
+                <p>Site built with tools from <a href="https://sadgrl.online/">https://sadgrl.online/</a></p> 
+            </main>
+            
+        <aside id="rightSidebar"><h2>Updates</h2>
+        <div class="box">
+            <p>Reworked my entire site to something completely different!</p>
+            <ul style="padding-left:10px;">
+                <li>Made some layout changes</li>
+                <li>Complete branding changes!</li>
+                <li>I am now only active on Mastodon and my blog!</li>
+            </ul>
+        </div>
+        <h2>Suggestion?</h2>
+        <p>Do you have a suggestion for my site? Go fuck yourself! Bitch about me at (himaonlineee@gmail.com). Yes, i'm talking about you C▓▓▓▓▓▓▓▓ W▓▓▓▓▓.</p>
+        <ul>
+            <img src="hhh.png">
+        </ul></aside></div>
+        <footer id="footer">:･ﾟ✧:･.☽˚｡･ﾟ✧:･.:</footer>
     </div>
-  </div>
-    </body>
+</body>
 </html>
